@@ -1,10 +1,10 @@
 library(ggplot2)
-setwd("D:/git_repository/Rossmann-kaggle-Jiahong-Wang")
+setwd("D:/input/Rossmann")
 
 
-train <- read.table("../input/Rossmann/train.csv",header=T,sep=",")
-test <- read.table("../input/Rossmann/test.csv",header=T,sep=",")
-store <- read.table("../input/Rossmann/store.csv",header=T,sep=",")
+train <- read.table("train.csv",header=T,sep=",")
+test <- read.table("test.csv",header=T,sep=",")
+store <- read.table("store.csv",header=T,sep=",")
 
 new.train <- train
 new.train$Promo <- as.factor(new.train$Promo)
