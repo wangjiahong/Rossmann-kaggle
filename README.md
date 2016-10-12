@@ -1,3 +1,1 @@
-# Rossmann kaggle Competition
-
-https://www.kaggle.com/c/rossmann-store-sales
+## Rossmann kaggle Competition
